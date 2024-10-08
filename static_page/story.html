@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story - Anime World</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav__logo">
+                <img src="https://img.freepik.com/premium-photo/minimalist-anime-streaming-logo_956414-2280.jpg?w=740" alt="Logo">
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <ul class="nav__links">
+                <li class="link"><a href="home.html">Home</a></li>
+                <li class="link"><a href="story.html">Our Story</a></li>
+                <li class="link"><a href="images.html">Images</a></li>
+                <li class="link"><a href="Reviews.html">Reviews</a></li>
+                <li class="link"><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+            <button class="btn">Learn More</button>
+        </nav>
+    </header>
+    <main>
+        <section class="our-story">
+            <h2>Our Story</h2>
+            <p>
+                At Anime World, we believe in the ultimate power of storytelling. Our journey began with a passion for anime, uniting fans through captivating narratives and stunning visuals. From epic battles to heartwarming friendships, every anime we explore offers a unique glimpse into different cultures and perspectives, enriching our understanding of the world. Join us as we delve into the enchanting realms of creativity and imagination, where each frame tells a story and every character leaves a mark on our hearts. We celebrate the artistry that goes into animation, the dedication of creators, and the passion of fans. Together, we can share our love for this vibrant medium, discovering new favorites and rediscovering timeless classics along the way. Anime is not just entertainment; it's a bridge that connects us all, fostering a community where ideas and experiences flourish.
+
+</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Anime World. All Rights Reserved.</p>
+        <p>Designed by Ram Kumar</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const links = document.querySelector('.nav__links');
+            links.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Anime World</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav__logo">
+                <img src="https://img.freepik.com/premium-photo/minimalist-anime-streaming-logo_956414-2280.jpg?w=740" alt="Logo">
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <ul class="nav__links">
+                <li class="link"><a href="home.html">Home</a></li>
+                <li class="link"><a href="story.html">Our Story</a></li>
+                <li class="link"><a href="images.html">Images</a></li>
+                <li class="link"><a href="Reviews.html">Reviews</a></li>
+                <li class="link"><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+            <button class="btn">Learn More</button>
+        </nav>
+    </header>
+    <main>
+        <section class="reviews">
+            <h2>What Our Fans Say</h2>
+            <div class="review-card">
+                <p>"Anime World has completely changed the way I view anime! The stories and characters are incredible!"</p>
+                <h3>- Ram</h3>
+            </div>
+            <div class="review-card">
+                <p>"The community is amazing and the content is top-notch. I can’t get enough!"</p>
+                <h3>- Kumar</h3>
+            </div>
+            <div class="review-card">
+                <p>"I love discovering new anime through Anime World! Highly recommend to any fan!"</p>
+                <h3>- Rajesh</h3>
+            </div>
+            <div class="review-card">
+                <p>"Anime World is my go-to for all things anime. The reviews are honest and insightful!"</p>
+                <h3>- Bargav</h3>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Anime World. All Rights Reserved.</p>
+        <p>Designed by Ram Kumar</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const links = document.querySelector('.nav__links');
+            links.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
